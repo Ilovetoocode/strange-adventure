@@ -212,6 +212,57 @@ internal class Program
                    new view()
         {
             fulltext="Nope, you are not allowed to die this time. Guess party not fun anymore?",
+            choice1="Summon Bob",
+            choice2="Befreind a dragon",
+            choice3="Still just die",
+            r1=17,
+            r2=20,
+            r3=21,
+        },
+                   new view()
+        {
+            fulltext="You fall in love with a dragon!" +
+                      "Yout two soon have kids, and run a bakery together. This is a happy ending",
+            choice1="",
+            choice2="",
+            choice3="",
+            r1=-1,
+            r2=-2,
+            r3=-3,
+        },
+                   new view()
+        {
+            fulltext="Dude. don't do it.",  
+            choice1="I will!",
+            choice2="Dragon love route",
+            choice3="Turn into a dragon",
+            r1=22,
+            r2=20,
+            r3=23,
+        },
+                   new view()
+        {
+            fulltext="Fine. YOU DIE. THE END. GRAHHHH",
+            choice1="",
+            choice2="",
+            choice3="",
+            r1=-1,
+            r2=-2,
+            r3=-3,
+        },
+                   new view()
+        {
+            fulltext="You become a dragon, and fly around..... Before crashing into a pile of gold, what do you do? only one option lol",
+            choice1="Sit in it and have it become your hoard",
+            choice2="",
+            choice3="",
+            r1=24,
+            r2=-2,
+            r3=-3,
+        },
+                   new view()
+        {
+            fulltext="You guard your new hoard, and you fall in love with it. You soon live the rest of your life as a normal dragon, and are happy.",
             choice1="",
             choice2="",
             choice3="",
