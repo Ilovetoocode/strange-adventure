@@ -81,10 +81,10 @@ internal class Program
             fulltext="The cake has somehow made the poison not kill you, but it does make you feel woozy, so you leave and come home.",
             choice1="Go back to the party!",
             choice2="Sleep",
-            choice3="",
+            choice3="Buy your own cake and eat it",
             r1=1,
             r2=7,
-            r3=-3,
+            r3=18,
         },
             new view()
         {
@@ -198,7 +198,18 @@ internal class Program
             r1=-1,
             r2=-2,
             r3=-3,
+        },
+                   new view()
+        {
+            fulltext="You buy your own cake,and you scarf the whole thing down. Your belly ends up getting pretty large, as you soon pass out. Good night!",
+            choice1="",
+            choice2="",
+            choice3="",
+            r1=-1,
+            r2=-2,
+            r3=-3,
         }
+
     };
     static int current = 0;
     static Random rand = new Random();
