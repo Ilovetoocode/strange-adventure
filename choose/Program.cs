@@ -146,7 +146,7 @@ internal class Program
             choice3="Just die lol",
             r1=1,
             r2=7,
-            r3=4,
+            r3=19,
         },
                new view()
         {
@@ -202,6 +202,16 @@ internal class Program
                    new view()
         {
             fulltext="You buy your own cake,and you scarf the whole thing down. Your belly ends up getting pretty large, as you soon pass out. Good night!",
+            choice1="",
+            choice2="",
+            choice3="",
+            r1=-1,
+            r2=-2,
+            r3=-3,
+        },
+                   new view()
+        {
+            fulltext="Nope, you are not allowed to die this time. Guess party not fun anymore?",
             choice1="",
             choice2="",
             choice3="",
