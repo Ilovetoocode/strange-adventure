@@ -113,7 +113,6 @@ internal class Program
         current = rand.Next(0, maxstart);
         
         Console.WriteLine("Name please!");
-        name = Console.ReadLine();
         Console.WriteLine("Pronouns?");
        
         while (true)
