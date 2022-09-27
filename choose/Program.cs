@@ -5,7 +5,6 @@ using System.Text;
     {
         public string fulltext;
         public string choice1, choice2, choice3;
-        //r in this case represents result
         public int r1, r2, r3;
     }
 
