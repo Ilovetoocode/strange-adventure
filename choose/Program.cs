@@ -10,23 +10,26 @@ using System.Text;
     }
 
 internal class Program
+
 {
+    static string name = "Gertude";
+    static string gender = "herhis";
 
     static view[] viewer =
 {
         new view()
         {
-            fulltext="Intro",
-            choice1="go to end",
-            choice2="second",
-            choice3="third",
+            fulltext="You are " +name+ " A knight who is....",
+            choice1="going to Die right now",
+            choice2="Going to a party!",
+            choice3="",
             r1=4,
             r2=2,
-            r3=3,
+            r3=-1,
         },
         new view()
         {
-            fulltext="is",
+            fulltext="You are at the party, what would you like to do here?",
             choice1="start",
             choice2="next",
             choice3="second to last",
@@ -56,7 +59,7 @@ internal class Program
         },
             new view()
         {
-            fulltext="Guess it is!",
+            fulltext="I, I guess that works? Uhh...."+name+"Was eaten by a grue, or something...",
             choice1="",
             choice2="",
             choice3="",
@@ -71,6 +74,10 @@ internal class Program
     static void pageview()
     {
         Console.Clear();
+        if ((viewer[current].fulltext).Contains("Gertrude"))
+        {
+            string s = viewer[current].fulltext.Replace("gertrude", name);
+        }
         Console.WriteLine(viewer[current].fulltext + Environment.NewLine + Environment.NewLine + Environment.NewLine);
         Console.WriteLine("Do something");
         if (viewer[current].choice1 != "")
@@ -99,33 +106,16 @@ internal class Program
             current = viewer[current].r3;
         }
     }
-    static string name = "Gertude";
-    static string gender = "herhis";
+    
+    
     private static void Main(string[] args)
     {
         current = rand.Next(0, maxstart);
-        string tempname = "";
-        string tempgender = "";
+        
         Console.WriteLine("Name please!");
-        tempname=Console.ReadLine();
-        if (!string.IsNullOrEmpty(tempname))
-        {
-            tempname = name;
-        }
-        else
-        {
-
-        }
+        
         Console.WriteLine("Pronouns?");
-        tempgender = Console.ReadLine();
-        if (!string.IsNullOrEmpty(tempgender))
-        {
-            gender = tempgender;
-        }
-        else
-        {
-
-        }
+       
         while (true)
         {
             pageview();
