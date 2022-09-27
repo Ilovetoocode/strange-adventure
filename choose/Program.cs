@@ -22,10 +22,10 @@ internal class Program
             fulltext="You are Gertrude A knight who is....",
             choice1="going to Die right now",
             choice2="Going to a party!",
-            choice3="",
+            choice3="Summoning the allmighty Bob",
             r1=4,
             r2=1,
-            r3=-1,
+            r3=17,
         },
         new view()
         {
@@ -183,6 +183,16 @@ internal class Program
         {
             fulltext="You and the devil dance...." +
                       "Years later, you two are in love, and run a successful dance school. How interesting and bizzare",
+            choice1="",
+            choice2="",
+            choice3="",
+            r1=-1,
+            r2=-2,
+            r3=-3,
+        },
+                   new view()
+        {
+            fulltext="|\\   __  \\|\\   __  \\|\\   __  \\    \r\n\\ \\  \\|\\ /\\ \\  \\|\\  \\ \\  \\|\\ /_   \r\n \\ \\   __  \\ \\  \\\\\\  \\ \\   __  \\  \r\n  \\ \\  \\|\\  \\ \\  \\\\\\  \\ \\  \\|\\  \\ \r\n   \\ \\_______\\ \\_______\\ \\_______\\\r\n    \\|_______|\\|_______|\\|_______| Reveals the secrets of the universe to you. 'Gertrude, none of this is real....' \r\n|\\   __  \\|\\   __  \\|\\   __  \\    \r\n\\ \\  \\|\\ /\\ \\  \\|\\  \\ \\  \\|\\ /_   \r\n \\ \\   __  \\ \\  \\\\\\  \\ \\   __  \\  \r\n  \\ \\  \\|\\  \\ \\  \\\\\\  \\ \\  \\|\\  \\ \r\n   \\ \\_______\\ \\_______\\ \\_______\\\r\n    \\|_______|\\|_______|\\|_______| then opens a strange portal of some kind,'Gertrude, once you go in here, you can't come back, but you will have my power, in the real world!' You step in, and.... You are now a powerful god like no other, you and \r\n|\\   __  \\|\\   __  \\|\\   __  \\    \r\n\\ \\  \\|\\ /\\ \\  \\|\\  \\ \\  \\|\\ /_   \r\n \\ \\   __  \\ \\  \\\\\\  \\ \\   __  \\  \r\n  \\ \\  \\|\\  \\ \\  \\\\\\  \\ \\  \\|\\  \\ \r\n   \\ \\_______\\ \\_______\\ \\_______\\\r\n    \\|_______|\\|_______|\\|_______| create worlds for people to live in, only for them to die. You two end up falling in love, this is happy end.",
             choice1="",
             choice2="",
             choice3="",
