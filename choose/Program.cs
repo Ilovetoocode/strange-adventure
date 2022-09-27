@@ -19,7 +19,7 @@ internal class Program
 {
         new view()
         {
-            fulltext="You are " +name+ " A knight who is....",
+            fulltext="You are Gertrude A knight who is....",
             choice1="going to Die right now",
             choice2="Going to a party!",
             choice3="",
@@ -59,7 +59,7 @@ internal class Program
         },
             new view()
         {
-            fulltext="I, I guess that works? Uhh...."+name+"Was eaten by a grue, or something...",
+            fulltext="I, I guess that works? Uhh....Gertrude Was eaten by a grue, or something...",
             choice1="",
             choice2="",
             choice3="",
@@ -71,26 +71,32 @@ internal class Program
     static int current = 0;
     static Random rand = new Random();
     static int maxstart = 1;
+
+
+    static string idk(string s)
+    {
+        s= s.Replace("Gertrude", name);
+        s= s.Replace("herhis", gender);
+        return s;
+    }
     static void pageview()
     {
+        
         Console.Clear();
-        if ((viewer[current].fulltext).Contains("Gertrude"))
-        {
-            string s = viewer[current].fulltext.Replace("gertrude", name);
-        }
-        Console.WriteLine(viewer[current].fulltext + Environment.NewLine + Environment.NewLine + Environment.NewLine);
+
+        Console.WriteLine(idk(viewer[current].fulltext) + Environment.NewLine + Environment.NewLine + Environment.NewLine);;
         Console.WriteLine("Do something");
         if (viewer[current].choice1 != "")
         {
-            Console.WriteLine(viewer[current].choice1);
+            Console.WriteLine(idk(viewer[current].choice1));
         }
         if (viewer[current].choice2 != "")
         {
-            Console.WriteLine(viewer[current].choice2);
+            Console.WriteLine(idk(viewer[current].choice2));
         }
         if (viewer[current].choice3 != "")
         {
-            Console.WriteLine(viewer[current].choice3);
+            Console.WriteLine(idk(viewer[current].choice3));
         }
         char input = Console.ReadKey().KeyChar;
         if ((input == 'A' || input == 'a' || input== '1' )&& viewer[current].r1 >= 0)
@@ -113,8 +119,9 @@ internal class Program
         current = rand.Next(0, maxstart);
         
         Console.WriteLine("Name please!");
+        name = Console.ReadLine();
         Console.WriteLine("Pronouns?");
-       
+        gender = Console.ReadLine();
         while (true)
         {
             pageview();
