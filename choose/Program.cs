@@ -243,10 +243,10 @@ internal class Program
         {
             fulltext="Fine. YOU DIE. THE END. GRAHHHH",
             choice1="These folks have a word with you....",
-            choice2="",
+            choice2="Reincarnate and become a dragon to escape the wrath of the dev!",
             choice3="",
             r1=33,
-            r2=-2,
+            r2=23,
             r3=-3,
         },
                    new view()
