@@ -202,10 +202,10 @@ internal class Program
         {
             fulltext="You buy your own cake,and you scarf the whole thing down. Your belly ends up getting pretty large, as you soon pass out. Good night!",
             choice1="CREDITS!",
-            choice2="",
+            choice2="wait what's up with this gag again?",
             choice3="",
             r1=33,
-            r2=-2,
+            r2=37,
             r3=-3,
         },
                    new view()
@@ -387,7 +387,16 @@ internal class Program
                        r1=-1,
                        r2=-1,
                        r3=-3,
-                   }
+                   },new view()
+                   {
+                       fulltext="Look, that does not say anything about me, defintrly not....",
+                       choice1="Agree it does not, and view the credits",
+                       choice2="Push on this further",
+                       choice3="",
+                       r1=33,
+                       r2=34,
+                       r3=-3,
+                   },
     };
     static int current = 0;
     static Random rand = new Random();
