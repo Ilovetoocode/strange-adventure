@@ -251,12 +251,12 @@ internal class Program
         },
                    new view()
         {
-            fulltext="You become a dragon, and fly around..... Before crashing into a pile of gold, what do you do? only one option lol",
+            fulltext="You become a dragon, and fly around..... Before crashing into a pile of gold, what do you do?",
             choice1="Sit in it and have it become your hoard",
-            choice2="",
+            choice2="EAT THE GOOOOLD!!!!",
             choice3="",
             r1=24,
-            r2=-2,
+            r2=35,
             r3=-3,
         },
                    new view()
@@ -368,7 +368,17 @@ internal class Program
             r1=33,
             r2=-26,
             r3=-32,
-                       }
+                       },
+                       new view()
+                   {
+                       fulltext="You eat all of the gold, now you are a big plump dragon full of gold. Why did you eat it exactly though?",
+                       choice1="CREDITS!",
+                       choice2="",
+                       choice3="",
+                       r1=33,
+                       r2=-1,
+                       r3=-3,
+                   }
     };
     static int current = 0;
     static Random rand = new Random();
