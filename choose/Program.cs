@@ -396,7 +396,7 @@ internal class Program
                        r1=33,
                        r2=34,
                        r3=-3,
-                   },
+                   }
     };
     static int current = 0;
     static Random rand = new Random();
