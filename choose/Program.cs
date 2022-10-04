@@ -353,10 +353,10 @@ internal class Program
                        {
                            fulltext="Strange adventure, a confusing mess of a text adventure game. \r\n Created by:Connor Walton (Ilovetoocode on Github) \r\n Made originally for a course all about programming ran by Paul Mccaral\r\n IMAGE CREDITS:\r\nDragon Roar:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nme.com%2Fguides%2Fworld-of-warcraft-dragonflight-release-date-beta-new-class-3208076&psig=AOvVaw1xd_oH0oP5OTVgdgEw0mLc&ust=1664995461312000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCLjn_cmdx_oCFQAAAAAdAAAAABAD\r\nBaby Dragon eating marshmellow:https://www.google.com/url?sa=i&url=https%3A%2F%2Fnumeralpaint.com%2Fproducts%2Fcute-baby-dragon-paint-by-numbers%2F&psig=AOvVaw0XF4aFPNBCNJrEbhn-Hbr0&ust=1664995456383000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCNiuxMqdx_oCFQAAAAAdAAAAABAD\r\n Fat dragon eating cake:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.furaffinity.net%2Fview%2F45625580%2F&psig=AOvVaw23SHmvf65NjBsuhagbqMSH&ust=1664995578466000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCNDfz4Kex_oCFQAAAAAdAAAAABAD\r\n Flying Dragon:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artstation.com%2Fartwork%2FPoGyXr&psig=AOvVaw2JckvNLSy43nvOseW6vDZz&ust=1664995618587000&source=images&cd=vfe&ved=0CAgQjhxqFwoTCIjP0JSex_oCFQAAAAAdAAAAABAE\r\n Text conversion done by https://manytools.org/hacker-tools/convert-images-to-ascii-art/\r\n THANKS FOR PLAYING, NOW LEEEEEEEAAAAAVVVEEE!",
             choice1="Go back to the start, ignoring the pleas of the dev",
-            choice2="",
+            choice2="Leave",
             choice3="",
             r1=0,
-            r2=-26,
+            r2=36,
             r3=-29,
                        },
                        new view()
@@ -376,6 +376,15 @@ internal class Program
                        choice2="",
                        choice3="",
                        r1=33,
+                       r2=-1,
+                       r3=-3,
+                   },new view()
+                   {
+                       fulltext="It is now safe to turn off the game. (Alt+f4)",
+                       choice1="",
+                       choice2="",
+                       choice3="",
+                       r1=-1,
                        r2=-1,
                        r3=-3,
                    }
