@@ -196,7 +196,7 @@ internal class Program
             choice3="",
             r1=33,
             r2=-2,
-            r3=38,
+            r3=-5,
         },
                    new view()
         {
@@ -256,7 +256,7 @@ internal class Program
             choice2="EAT THE GOOOOLD!!!!",
             choice3="",
             r1=24,
-            r2=35,
+            r2=34,
             r3=-3,
         },
                    new view()
@@ -346,7 +346,7 @@ internal class Program
             choice2="Leave",
             choice3="",
             r1=0,
-            r2=36,
+            r2=35,
             r3=-29,
                        },
          
