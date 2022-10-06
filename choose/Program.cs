@@ -376,8 +376,8 @@ internal class Program
                        choice1="Hacking",
                        choice2="Pressed the secret button on the bob page",
                        choice3="",
-                       r1=35,
-                       r2=36,
+                       r1=36,
+                       r2=37,
                        r3=-3,
                    },
                        new view()
