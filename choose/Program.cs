@@ -196,7 +196,7 @@ internal class Program
             choice3="",
             r1=33,
             r2=-2,
-            r3=-5,
+            r3=36,
         },
                    new view()
         {
@@ -368,7 +368,38 @@ internal class Program
                        r1=-1,
                        r2=-1,
                        r3=-3,
-                   }       
+                   
+                  },
+                    new view()
+                   {
+                       fulltext="How did you get here?",
+                       choice1="Hacking",
+                       choice2="Pressed the secret button on the bob page",
+                       choice3="",
+                       r1=37,
+                       r2=38,
+                       r3=-3,
+                   },
+                       new view()
+                   {
+                       fulltext="Leave now. Sorry, I don't make the rules",
+                       choice1="THE DOOR",
+                       choice2="",
+                       choice3="",
+                       r1=35,
+                       r2=-1,
+                       r3=-3,
+                   },
+                       new view()
+                   {
+                       fulltext="Well then, congrats! You get, I'm not sure right now. Here, contact me on Discord, name is: Bot(goopymewbold)#1337, take a screen cap of this screen, and we'll work something out. (ULTIMATE SECRET ENDING, YOU ARE TRUE WINNER)",
+                       choice1="Credits",
+                       choice2="",
+                       choice3="",
+                       r1=33,
+                       r2=-1,
+                       r3=-3,
+                   }
     };
     static int current = 0;
     static Random rand = new Random();
