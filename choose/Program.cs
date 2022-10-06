@@ -399,7 +399,7 @@ internal class Program
                    },
                        new view()
                    {
-                       fulltext="How did you get here?",
+                       fulltext="How did you get here,Gertrude?",
                        choice1="Hacking",
                        choice2="Pressed the secret button on the bob page",
                        choice3="",
