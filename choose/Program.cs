@@ -359,16 +359,7 @@ internal class Program
             r2=36,
             r3=-29,
                        },
-                       new view()
-                       {
-                           fulltext="Fine, You are right.... Goddamit, I'm also into vore. WAIT, WAIT, IS THIS ON THE SCREEN? NOOOOOOOOOOOOOOO (Secret ending lol)",
-            choice1="WHO DID THIS?",
-            choice2="",
-            choice3="",
-            r1=33,
-            r2=-26,
-            r3=-32,
-                       },
+         
                        new view()
                    {
                        fulltext="You eat all of the gold, now you are a big plump dragon full of gold. Why did you eat it exactly though?",
