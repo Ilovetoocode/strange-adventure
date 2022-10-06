@@ -402,7 +402,7 @@ internal class Program
                    },
                           new view()
                    {
-                       fulltext="So, what did you think of the game teacher? Was it cool? IDK, this was a silly idea",
+                       fulltext="So, what did you think of the game teacher? Was it cool? IDK, this was a silly idea\r\n This was a fun project, went a little overboard myself lol. It's been great with you, it's kind of sad this might be our last year together\r\n I hope I will be able to make you proud on what I do in the future. \r\n And to everyone else here in class, I would like to say, funny games, and special thanks to Quienton for nearly derailing this for everyone with your bob chain, you have been immortalized in an ending. \r\n Well, guess that's it, hope I did well, and that you can actually get here without me needing to fix this code. \r\n Sincerely: Connor Walton.",
                        choice1="Credits, at last",
                        choice2="",
                        choice3="",
