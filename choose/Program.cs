@@ -393,7 +393,17 @@ internal class Program
                        new view()
                    {
                        fulltext="Well then, congrats! You get, I'm not sure right now. Here, contact me on Discord, name is: Bot(goopymewbold)#1337, take a screen cap of this screen, and we'll work something out. (ULTIMATE SECRET ENDING, YOU ARE TRUE WINNER)",
-                       choice1="Credits",
+                       choice1="Final notes (Exclusive to this special school version)",
+                       choice2="",
+                       choice3="",
+                       r1=38,
+                       r2=-1,
+                       r3=-3,
+                   },
+                          new view()
+                   {
+                       fulltext="So, what did you think of the game teacher? Was it cool? IDK, this was a silly idea",
+                       choice1="Credits, at last",
                        choice2="",
                        choice3="",
                        r1=32,
